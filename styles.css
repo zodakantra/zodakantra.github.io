@@ -1,0 +1,181 @@
+:root {
+    --fondo-prim: #495c50;
+    --fondo-sec: #1a1a1a;
+    --fondo-sec2: #e3d3bc;
+    --selec-oscuro: #404543;
+    --fondo-claro: #878787;
+
+    background-color: var(--fondo-prim);
+}
+
+
+/*! -------------------------- MODIFICACION ELEMENTOS BASICOS -------------------------- */
+* {
+    font-family: "Montserrat", serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: var(--fondo-sec2);
+}
+
+h1 {
+    margin: 5vh 0 5vh;
+    font-size: 50px;
+}
+
+h2 {
+    margin: 5vh 0 5vh;
+    font-size: 30px;
+}
+
+p {
+    line-height: 2;
+}
+
+section {
+    scroll-margin-top: 100px; /* Match the navbar's height */
+
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0 5vw;
+    text-align: left;
+}
+
+body {
+    padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--fondo-sec2);
+}
+
+/*! -------------------------- NAVBAR STYLES -------------------------- */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; /* Height of the navbar */
+    background-color: var(--fondo-sec);
+    z-index: 1000;
+}
+
+/* Navbar list styling */
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; /* Full height of the navbar */
+    display: flex;
+}
+
+/* Navbar list items */
+#navbar li {
+    flex: 1; /* Equal space for all list items */
+    display: flex; /* Use flexbox to center text */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+}
+
+/* Navbar links */
+#navbar a {
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    width: 100%; 
+    height: 100%;
+}
+
+#navbar a:hover {
+    background-color: var(--selec-oscuro);
+}
+
+/*! -------------------------- CLASES --------------------------*/
+
+.cita {
+    text-align: center;
+    font-style: oblique;
+    margin: 5vh 10vw;
+}
+
+.barra-espaciada-elementos {
+    width: 100%;
+    height: 50px;   
+    padding: 10vh 0 10vh 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#contenedor-proyectos {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 10vw;
+    row-gap: 10vh;
+    padding: 0 0 10vh 0;
+}
+
+.project-tile {
+    background-color: var(--fondo-sec);
+    border-radius: 25px;
+}
+
+.project-tile img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+    filter: grayscale(50%);
+    -webkit-filter: grayscale(50%);
+}
+
+.project-tile p {
+    margin: 3vh 2vw;
+    font-size: 15px;
+}
+
+.project-tile > h3 {
+    margin: 3vh 2vw;
+}
+
+.project-tile * {
+    color: var(--fondo-sec2);
+}
+
+.contacto a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh 0 10vh 0;
+}
+
+.contacto img {
+    width: 100px;
+    height: 100px;
+    margin: 5vh 0 5vh 0;
+}
+
+/*! -------------------------- SECCIONES -------------------------- */
+
+/*The height of the welcome section should be equal to the height of the viewport*/
+#welcome-section {
+    background-color: var(--fondo-prim);
+}
+
+#projects {
+    background-color: var(--fondo-sec2);
+}
+
+#projects > h1, 
+#projects > h2,
+#projects > h3 {
+    color: var(--fondo-prim);
+}
+
+/* Your portfolio should have at least one media query */
