@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="icon" href="https://cdn0.iconfinder.com/data/icons/job-seeker/256/conversation_job_seeker_employee_unemployee_work-512.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section">Presentación</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contacts">Contactos</a></li>
+        </ul>
+    </nav>
+
+    <section id="welcome-section">
+        <h1>Mi Portfolio</h1>
+        <h2>Augusto Damián Tejerina</h2>
+
+        <p>
+            Soy un estudiante de la Licenciatura en Ciencias de la Computación de la <strong>Universidad de Buenos Aires</strong>. 
+            Me dedico en mi tiempo libre al scripting, diseño web,
+            backend, web scraping con aplicaciones en OSINT y sistemas de gestión general entre muchísimas otras aplicaciones.
+            Tengo un entusiasmo particular por el estudio y la resolución de problemas no identificados aplicando mis conocimientos
+            para facilitar la vida de las personas.
+        </p>
+
+        <ul class="barra-espaciada-elementos">
+            <li>Diseño Web</li>
+            <li>Automatización</li>
+            <li>Servidores</li>
+            <li>Programación Competitiva</li>
+        </ul>
+
+        <p>Dicho por la UBA acerca de la carrera Ciencias de la Computación:</p>
+        <p class="cita">
+            "Nuestros planes de estudio (Licenciatura / Bachiller en Ciencias de la Computación) 
+            combinan clases teóricas, trabajo en laboratorio, prácticas, cursos y seminarios opcionales, 
+            dictados por prestigiosos docentes. El resultado es una sólida formación teórica y 
+            práctica que te va a permitir responder a las demandas tecnológicas y científicas actuales y futuras. 
+            Los y las estudiantes de Ciencias de la Computación que completen ciertas materias de los primeros tres años y 
+            medio de la carrera tienen la posibilidad de obtener el título de Bachiller Universitario en Computación."
+        </p>
+    </section>
+
+    <section id="projects">
+        <h1>Proyectos</h1>
+        <h2>Acá presento algunos de mis proyectos más remarcables y creativos</h2>
+        <!-- The projects section should contain at least one element with a class of project-tile to hold a project -->
+        <div id="contenedor-proyectos">
+
+            <div class="project-tile">
+                <h3>Sistema de Gestión de Gimnasios</h3>
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/022/653/711/small_2x/treadmill-in-modern-gym-toned-image-3d-rendering-generative-ai-free-photo.jpg" alt="gimnasio">
+                <p>
+                    Un programa centrado en administrar los pagos, deudas y clientes de un gimnasio usando como almacenamiento de datos
+                    planillas de excel para fácil visualización, python con pandas para operaciones paralelizadas.
+                </p>
+                <p>
+                    Lleva registro de deudores, cantidad y datos de todos los clientes además de los meses que va pagando cada uno,
+                    también gracias a su "modo registro" permite anotar los clientes que asisten día a día al establecimiento, logrando así
+                    llevar un atento seguimiento de los pagos.
+                </p>
+            </div>
+
+            <div class="project-tile">
+                <h3>Scrapper de OSINT</h3>
+                <img src="https://phoenixnap.com/glossary/wp-content/uploads/2023/04/what-is-html.jpg">
+                <p>
+                    Un programa que se encarga de recopilar información de distintas fuentes de internet, como redes sociales, 
+                    páginas web, foros, etc. para obtener información de una persona o entidad en particular.
+                </p>
+                <p>
+                    Empleando selenium de python emula un navegador web para poder acceder a la información de las páginas web
+                    que requieran de un login o que tengan un sistema de seguridad que impida el acceso a bots.
+                    Guarda toda la información recaudada en un archivo de texto para su posterior análisis.
+                </p>
+            </div>
+
+            <div class="project-tile">
+                <h3>Bots de Whatsapp</h3>
+                <img src="https://www.gacelaweb.com/wp-content/uploads/que_es_un_bot_en_internet.jpg">
+                <p>
+                    Un bot diseñado para interactuar con WhatsApp y actuar como un navegador web mediante comandos específicos. 
+                    Permite realizar diversas acciones como capturar pantallas, convertir páginas web a PDF y enviar el HTML de los enlaces proporcionados. 
+                    Además, puede realizar búsquedas en Google y Twitter, devolviendo los resultados directamente en el chat de WhatsApp.
+                </p>
+            </div>
+
+            <div class="project-tile">
+                <h3>Factorizador de Polinomios Empleando el <a href="https://es.wikipedia.org/wiki/M%C3%A9todo_de_Cardano"><strong>Método de Cardano</strong></a></h3>
+                <img src="https://i.sstatic.net/SAgJO.png">
+                <p>
+                    Utilizando el método de cardano en combinación con el de Ferrari este simple programa de consola
+                    permite factorizar polinomios de grado 3 y 4 obteniendo así sus raíces reales y complejas.
+                </p>
+                <p>
+                    Teniendo en cuenta que el método de Cardano es un método general para resolver ecuaciones cúbicas,
+                    las raíces obtenidas están expresadas en términos reductibles pero muy complejos.
+                    Sería necesario un programa más avanzado para simplificar las raíces obtenidas.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contacts" class="barra-espaciada-elementos">
+        <h1>Contactos</h1>
+
+        <div class="contacto">
+            <a href="https://www.instagram.com/zodakaton/" target="_blank">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-512.png">
+                <h4>Instagram</h4>
+            </a>
+        </div>
+        <div class="contacto">
+            <a href="#" target="_blank">
+                <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png">
+                <h4>Facebook</h4>
+            </a>
+        </div>
+        <div class="contacto">
+            <a href="#" target="_blank">
+                <img src="https://cdn4.iconfinder.com/data/icons/social-media-black-white-2/1227/X-512.png">
+                <h4>Twitter</h4>
+            </a>
+        </div>
+        <div id="profile-link" class="contacto">
+            <a href="https://github.com/zodakantra" target="_blank">
+                <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-512.png">
+                <h4>Github</h4>
+            </a>
+        </div>
+
+    </section>
+
+</body>
+</html>

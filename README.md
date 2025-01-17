@@ -1,1 +1,0 @@
-# zodakantra.github.io
