@@ -33,7 +33,7 @@ p {
 }
 
 section {
-    scroll-margin-top: 100px; /* Match the navbar's height */
+    scroll-margin-top: 50px; /* Match the navbar's height */
 
     min-height: 100vh;
     height: auto;
