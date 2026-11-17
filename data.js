@@ -1,8 +1,8 @@
 export const PROFILE = {
   name: "Augusto Tejerina",
-  handle: "cide-hamete",
+  handle: "zodakantra",
   email: "damiantgrina@gmail.com",
-  github: "https://github.com/cide-hamete",
+  github: "https://github.com/zodakantra",
   location: "Buenos Aires, Argentina",
   languages: [
     { name: "Español", level: "Nativo" },
